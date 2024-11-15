@@ -54,6 +54,7 @@ table {
 
 :root{
   --pink: #FF8ED7;
+  --edge-padding: 6.4vw;
 }
 
 html {
