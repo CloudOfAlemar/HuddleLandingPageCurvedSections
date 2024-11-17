@@ -4,6 +4,7 @@ import "./index.css";
 
 // Feature
 import TopBar from "./features/TopBar";
+import HeroContent from "./features/HeroContent";
 
 // Styles
 const header = css`
@@ -14,6 +15,7 @@ function Header() {
   return (
     <header css={header}>
       <TopBar/>
+      <HeroContent/>
     </header>
   );
 }

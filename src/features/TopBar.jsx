@@ -16,15 +16,15 @@ const container = css`
 `;
 
 const huddleLogo = css`
-  width: clamp(7.2rem, 25.6vw, 24rem);
+  width: clamp(9.6rem, 25.6vw, 24rem);
 `;
 
 const btnTryIt = css`
-  font-size: clamp(.702613rem, 2.509333vw, 1.6rem);
-  line-height: 1.381509em;
-  padding: 0.531349em 1.8em;
+  font-size: clamp(.941rem, 2.509333vw, 1.6rem);
+  line-height: clamp(1.3rem, 3.466666vw, 2.2rem);
+  padding: clamp(.55rem, 1.466666vw, .9rem) clamp(1.8rem, 4.8vw, 3.05rem);
   border: clamp(.05rem, 0.157333vw, .1rem) solid var(--pink);
-  border-radius: 2em;
+  border-radius: clamp(1.176rem, 3.136vw, 2rem);
   background-color: transparent;
   color: var(--pink);
   box-shadow: 0 0 clamp(.5rem, 1.333333vw, .9rem) rgba(225, 82, 193, 21.88%);
