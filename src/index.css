@@ -54,7 +54,8 @@ table {
 
 :root{
   --pink: #FF8ED7;
-  --edge-padding: 6.4vw;
+  --gray-text: #808E9A;
+  --edge-padding: clamp( 2.4rem, 6.4vw, 8rem);
 }
 
 html {

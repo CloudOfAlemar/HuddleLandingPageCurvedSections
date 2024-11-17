@@ -8,7 +8,7 @@ import HeroContent from "./features/HeroContent";
 
 // Styles
 const header = css`
-  padding: var(--edge-padding);
+  padding: clamp(2.4rem, 6.4vw, 7.8rem) var(--edge-padding);
 `;
 
 function Header() {
