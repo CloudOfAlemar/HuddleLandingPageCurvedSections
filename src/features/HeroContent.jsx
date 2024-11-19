@@ -1,7 +1,7 @@
 /**@jsxImportSource @emotion/react */
 import {css} from "@emotion/react";
 
-// Components
+// JSX Components
 import StatBox from "../components/StatBox";
 
 // Style Components
