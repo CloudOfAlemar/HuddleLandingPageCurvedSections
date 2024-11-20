@@ -13,6 +13,7 @@ const container = css`
   justify-content: space-between;
   align-items: center;
   margin-bottom: clamp(11.2rem, 29.866666vw, 22.5rem);
+  padding-top: clamp(2.4rem, 6.4vw, 8rem);
 `;
 
 const huddleLogo = css`

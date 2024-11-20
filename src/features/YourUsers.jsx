@@ -15,11 +15,11 @@ import SectionHeading from "../styled-components/SectionHeading";
 import SectionP from "../styled-components/SectionP";
 
 // Images
-import growTogetherImg from "../assets/illustration-grow-together.svg";
-import bgSectionTopMobile1 from "../assets/bg-section-top-mobile-1.svg";
-import bgSectionTopDesktop1 from "../assets/bg-section-top-desktop-1.svg";
-import bgSectionBottomMobile1 from "../assets/bg-section-bottom-mobile-1.svg";
-import bgSectionBottomDesktop1 from "../assets/bg-section-bottom-desktop-1.svg";
+import yourUsersImg from "../assets/illustration-your-users.svg";
+import bgSectionTopMobile2 from "../assets/bg-section-top-mobile-2.svg";
+import bgSectionTopDesktop2 from "../assets/bg-section-top-desktop-2.svg";
+import bgSectionBottomMobile2 from "../assets/bg-section-bottom-mobile-2.svg";
+import bgSectionBottomDesktop2 from "../assets/bg-section-bottom-desktop-2.svg";
 
 // Styles
 const sectionImg = css`
@@ -28,35 +28,34 @@ const sectionImg = css`
   }
 `;
 
-function GrowTogether() {
+function YourUsers() {
   return (
     <section>
-      <DividerImgMobileTop src={bgSectionTopMobile1} alt="A wave like image to divide sections."/>
-      <DividerImgDesktopTop src={bgSectionTopDesktop1} alt="A wave like image to divide sections."/>
+      <DividerImgMobileTop src={bgSectionTopMobile2} alt="A wave like image to divide sections."/>
+      <DividerImgDesktopTop src={bgSectionTopDesktop2} alt="A wave like image to divide sections."/>
       <SectionBg>
         <Container>
           <SectionLayout>
 
             {/* Section Img */}
-            <SectionImg css={sectionImg} src={growTogetherImg}/>
+            <SectionImg css={sectionImg} src={yourUsersImg}/>
 
             {/* Section Content */}
             <SectionContent>
-              <SectionHeading>Grow Together</SectionHeading>
+              <SectionHeading>Your Users</SectionHeading>
               <SectionP>
-                Generate meaningful discussions with your audience and build a strong,
-                loyal community. Think of the insightful conversations you miss out on
-                with a feedback form. 
+              It takes no time at all to integrate Huddle with your app's authentication solution. 
+              This means, once signed in to your app, your users can start chatting immediately. 
               </SectionP>
             </SectionContent>
 
           </SectionLayout>
         </Container>
       </SectionBg>
-      <DividerImgMobileBottom src={bgSectionBottomMobile1} alt="A wave like image to divide sections."/>
-      <DividerImgDesktopBottom src={bgSectionBottomDesktop1} alt="A wave like image to divide sections."/>
+      <DividerImgMobileBottom src={bgSectionBottomMobile2} alt="A wave like image to divide sections."/>
+      <DividerImgDesktopBottom src={bgSectionBottomDesktop2} alt="A wave like image to divide sections."/>
     </section>
   );
 }
 
-export default GrowTogether;
+export default YourUsers;

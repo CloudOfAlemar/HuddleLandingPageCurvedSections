@@ -4,6 +4,7 @@ import {css} from "@emotion/react";
 // JSX Features
 import GrowTogether from "./features/GrowTogether";
 import FlowingConversations from "./features/FlowingConversations";
+import YourUsers from "./features/YourUsers";
 
 // Styles
 
@@ -12,6 +13,7 @@ function MainContent() {
     <main>
       <GrowTogether />
       <FlowingConversations />
+      <YourUsers />
     </main>
   );
 }

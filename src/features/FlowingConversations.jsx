@@ -2,7 +2,6 @@
 import {css} from "@emotion/react";
 
 // Styled Components
-import SectionParent from "../styled-components/SectionParent";
 import Container from "../styled-components/Container";
 import SectionLayout from "../styled-components/SectionLayout";
 import SectionImg from "../styled-components/SectionImg";
@@ -14,13 +13,13 @@ import SectionP from "../styled-components/SectionP";
 import flowingConversationsImg from "../assets/illustration-flowing-conversation.svg";
 
 // Styles
-const sectionParent = css`
-  padding: clamp(20rem, 53.333333vw, 35rem) var(--edge-padding);
+const sectionFlowingConversations = css`
+  padding: clamp(4rem, 10.666666vw, 10rem) 0;
 `;
 
 function FlowingConversations() {
   return (
-    <SectionParent css={sectionParent}>
+    <section css={sectionFlowingConversations}>
       <Container>
         <SectionLayout>
 
@@ -38,7 +37,7 @@ function FlowingConversations() {
 
         </SectionLayout>
       </Container>
-    </SectionParent>
+    </section>
   );
 }
 

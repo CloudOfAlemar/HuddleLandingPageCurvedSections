@@ -14,9 +14,13 @@ import iconCommunities from "../assets/icon-communities.svg";
 import iconMessages from "../assets/icon-messages.svg";
 
 // Styles
+const container = css`
+  padding-bottom: clamp(4rem, 10.666666vw, 15rem);
+`;
+
 const intro = css`
   text-align: center;
-  padding: 0 clamp(1.6rem, 4.266666vw, 13.2rem);
+  padding: 0 clamp(1.6rem, 4.266666vw, 6rem);
 `;
 
 const mainHeading = css`
@@ -55,7 +59,7 @@ const statsWrapper = css`
 
 function HeroContent(){
   return (
-    <Container>
+    <Container css={container}>
       {/* Intro */}
       <div css={intro}>
         <h1 css={mainHeading}>Build The Community Your Fans Will Love</h1>
