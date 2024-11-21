@@ -5,6 +5,7 @@ import {css} from "@emotion/react";
 import GrowTogether from "./features/GrowTogether";
 import FlowingConversations from "./features/FlowingConversations";
 import YourUsers from "./features/YourUsers";
+import Closing from "./features/Closing";
 
 // Styles
 
@@ -14,6 +15,7 @@ function MainContent() {
       <GrowTogether />
       <FlowingConversations />
       <YourUsers />
+      <Closing />
     </main>
   );
 }

@@ -1,7 +1,10 @@
+// Features
+import Communications from "./features/Communications";
+
 function Footer() {
   return (
     <footer>
-      Footer
+      <Communications/>
     </footer>
   );
 }

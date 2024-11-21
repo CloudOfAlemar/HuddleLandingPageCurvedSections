@@ -6,9 +6,6 @@ import "./index.css";
 import TopBar from "./features/TopBar";
 import HeroContent from "./features/HeroContent";
 
-// Styles
-
-
 function Header() {
   return (
     <header>
