@@ -18,7 +18,7 @@ const closingHeading = css`
   font-size: clamp(2.4rem, 6.4vw, 4rem);
   line-height: clamp(3.6rem, 9.6vw, 6rem);
   margin-bottom: clamp(4rem, 10.666666vw, 4.2rem);
-  font-weight: 600;
+  font-weight: bold;
 `;
 
 function Closing() {

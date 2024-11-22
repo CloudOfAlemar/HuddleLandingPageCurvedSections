@@ -26,7 +26,7 @@ const intro = css`
 const mainHeading = css`
   font-size: clamp(2.4rem, 6.4vw, 4.8rem);
   line-height: clamp(3.6rem, 9.6vw, 7.2rem);
-  font-weight: 600;
+  font-weight: bold;
   margin-bottom: clamp(2.4rem, 6.4vw, 2.6rem);
 `;
 

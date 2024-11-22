@@ -54,8 +54,11 @@ table {
 
 :root{
   --pink: #FF8ED7;
+  --dark-pink: #FF52C1;
   --gray-text: #808E9A;
   --light-blue: #F6FBFF;
+  --navy-blue: #00252E;
+  --bright-blue: #00C7FA;
   --edge-padding: clamp( 2.4rem, 6.4vw, 8rem);
 }
 
@@ -64,6 +67,15 @@ html {
   font-family: "Open Sans", serif;
 }
 
+body {
+  color: var(--navy-blue);
+}
+
 h1, h2 {
   font-family: "Poppins", serif;
+}
+
+button, input {
+  font-family: "Open Sans", serif;
+  box-sizing: border-box;
 }

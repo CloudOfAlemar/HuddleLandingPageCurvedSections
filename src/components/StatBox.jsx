@@ -8,7 +8,7 @@ const statIcon = css`
 const statNumber = css`
   font-size: clamp(6rem, 16vw, 9.6rem);
   line-height: clamp(9.1rem, 24.266666vw, 14.4rem);
-  font-weight: 600;
+  font-weight: bold;
 `;
 
 const statText = css`
