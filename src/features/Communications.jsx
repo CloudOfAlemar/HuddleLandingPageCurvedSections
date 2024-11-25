@@ -1,6 +1,8 @@
 /**@jsxImportSource @emotion/react */
 import {css} from "@emotion/react";
 
+import { useState } from "react";
+
 // Styled Components
 import Container from "../styled-components/Container";
 import DividerImgMobileTop from "../styled-components/DividerImgMobileTop";
@@ -57,10 +59,25 @@ const newsletterP = css`
   max-width: 34.4rem;
 `;
 
-const newsletterForm = css`
+const newsletterForm = (isValidEmail) => css`
   display: flex;
   flex-wrap: wrap;
   gap: clamp(1.6rem, 4.266666vw, 3.2rem);
+  position: relative;
+  &::before {
+    position: absolute;
+    content: "Check your email please";
+    top: 0;
+    transform: translateY(-105%);
+    color: var(--red);
+    font-size: 1.2rem;
+    line-height: 2.4rem;
+    display: ${isValidEmail ? "none" : "block"};
+    @media (min-width: 590px) {
+      bottom: 0;
+      transform: translateY(105%);
+    }
+  }
 `;
 
 const newsletterInput = css`
@@ -138,6 +155,21 @@ const socialIcon = css`
 `;
 
 function Communications(){
+
+  const [isValidEmail, setIsValidEmail] = useState(true);
+
+  const handleInputChange = (event) => {
+    const input = event.target.value.trim();
+    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const isMatch = regex.test(input);
+    console.log( isMatch );
+    if(input === "") {
+      setIsValidEmail(true);
+    } else {
+      setIsValidEmail(isMatch);
+    }
+  }
+
   return (
     <>
       <DividerImgMobileTop src={bgFooterTopMobile} alt="A wave like image to divide sections."/>
@@ -153,8 +185,8 @@ function Communications(){
               weekly newsletter. We'll never send you spam or pass on your
               email address
             </p>
-            <form css={newsletterForm} action="">
-              <input css={newsletterInput} type="email" />
+            <form css={newsletterForm(isValidEmail)} action="">
+              <input onChange={handleInputChange} css={newsletterInput} type="email" />
               <button css={btnNewsletter}>Subscribe</button>
             </form>
           </div>

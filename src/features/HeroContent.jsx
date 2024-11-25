@@ -34,7 +34,7 @@ const introP = css`
   font-size: clamp(1.4rem, 3.733333vw, 2rem);
   line-height: clamp(2.1rem, 5.6vw, 3rem);
   margin-bottom: clamp(4.8rem, 12.8vw, 4.9rem);
-  max-width: 600px;
+  max-width: 60rem;
   margin-inline: auto;
 `;
 

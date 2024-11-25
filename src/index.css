@@ -59,6 +59,7 @@ table {
   --light-blue: #F6FBFF;
   --navy-blue: #00252E;
   --bright-blue: #00C7FA;
+  --red: #FF4343;
   --edge-padding: clamp( 2.4rem, 6.4vw, 8rem);
 }
 
