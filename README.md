@@ -15,3 +15,9 @@ standards.
 - Emotion (CSS Library)
 - React
 - Vite (Build Tool)
+
+## Links
+[Live Site](https://huddlelandingpagecurvedsections.netlify.app)
+
+## Screenshot
+![Huddle Landing Page Curved Sections Screenshot](./public/screenshot.png)
