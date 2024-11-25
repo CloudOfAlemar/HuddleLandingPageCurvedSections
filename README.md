@@ -1,8 +1,17 @@
-# React + Vite
+# Huddle Landing Page Curved Sections
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This project is a solution to a Frontend Mentor challenge for 
+the Huddle landing page. I chose this challenge to enhance my 
+skills in responsive design and deepen my understanding of modern 
+web technologies. It was an opportunity to practice creating 
+user-friendly layouts while improving my workflow with industry 
+standards.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies
+- HTML
+- CSS
+- Javascript
+- Emotion (CSS Library)
+- React
+- Vite (Build Tool)
